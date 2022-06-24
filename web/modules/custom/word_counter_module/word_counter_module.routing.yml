@@ -1,0 +1,7 @@
+word_counter_module.word_counter:
+  path: '/word-counter'
+  defaults:
+    _controller: '\Drupal\word_counter_module\Controller\WordCounterController::counter'
+    _title: 'Welcome to My Module in Drupal 9'
+  requirements:
+    _permission: 'access content'
